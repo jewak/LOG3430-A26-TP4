@@ -31,7 +31,7 @@ jobs:
           pip install -e ".[dev]"
 
       - name: Verify installation
-        run: encodre --help
+        run: encoder --help
 
       - name: Run tests
         run: pytest
